@@ -41,6 +41,7 @@ flag1 toggles the statistical model between allowing variance in
 6. m
 
 Flag3 toggles the hysteresis induction between pulsed and stepped protocols
+
 Flag4 toggles between hyper-, normo- and hypocalcemia in the fourth protocol
 
 
