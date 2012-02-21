@@ -7,26 +7,39 @@ Two models are available in this format.  The first is the time dependent model,
 #Parameters
 
 kv=intracellular production
+
 kdeg=intracellular degradation
+
 m=cascade coefficient 
+
 kd=dissociation constant of CaSR
+
 GFR=glomerular filtration rate
+
 LFR=liver filtration rate
+
 SVol=serum volume
+
 alpha=fractional permeation constant
-beta=tonic permeation constnat
+
+beta=tonic permeation constant
+
 ProtocolFlag=toggles the time dependent model between 4 paradigms, corresponding to 
+
 1. 24-hour PTH bolus
 2. 10 days on "normal diet
 3. hysteresis induction
 4. effects of chronic hyper- and hypocalcemia on the Ca-PTH relationship
+
 flag1 toggles the statistical model between allowing variance in 
+
 1. all
 2. kv
 3. kdeg
 4. alpha
 5. beta
 6. m
+
 Flag3 toggles the hysteresis induction between pulsed and stepped protocols
 Flag4 toggles between hyper-, normo- and hypocalcemia in the fourth protocol
 
